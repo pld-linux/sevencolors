@@ -3,8 +3,8 @@ Name:		7colors
 %define _name	sevencolors
 Version:	0.80
 Release:	0.1
-Source0:	http://digilander.iol.it/sbel/7colors/%{_name}-%{version}.tar.bz2
-# Source0-md5:	a6b789ceae0f65657d69a95499923631
+Source0:	http://digilander.iol.it/sbel/7colors/%{_name}-%{version}.tar.gz
+# Source0-md5:	2afdc10008ba214f8832070365410858
 URL:		http://digilander.libero.it/sbel/7colors.english.html
 License:	GPL
 Group:		X11/Applications/Games
