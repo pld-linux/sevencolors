@@ -2,7 +2,7 @@ Summary:	Little addicting game, take over the gaming area with your color
 Summary(pl):	Uzale¿niaj±ca gra polegaj±ca na przejêciu obszaru gry swoim kolorem
 Name:		sevencolors
 Version:	0.80
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://digilander.iol.it/sbel/7colors/%{name}-%{version}.tar.gz
