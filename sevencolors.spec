@@ -9,6 +9,7 @@ Source0:	http://digilander.iol.it/sbel/7colors/%{name}-%{version}.tar.gz
 # Source0-md5:	2afdc10008ba214f8832070365410858
 URL:		http://digilander.libero.it/sbel/7colors.english.html
 BuildRequires:	gnome-libs-devel
+Obsoletes:	7colors
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
