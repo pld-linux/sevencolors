@@ -1,12 +1,11 @@
 Summary:	Little addicting game, take over the gaming area with your color
 Summary(pl):	Uzale¿niaj±ca gra polegaj±ca na przejêciu obszaru gry swoim kolorem
-Name:		7colors
-%define _name	sevencolors
+Name:		sevencolors
 Version:	0.80
 Release:	0.1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://digilander.iol.it/sbel/7colors/%{_name}-%{version}.tar.gz
+Source0:	http://digilander.iol.it/sbel/7colors/%{name}-%{version}.tar.gz
 # Source0-md5:	2afdc10008ba214f8832070365410858
 URL:		http://digilander.libero.it/sbel/7colors.english.html
 BuildRequires:	gnome-libs-devel
@@ -29,7 +28,7 @@ dla gracza 1, górnego prawego dla gracza 2) na wszystkie s±siednie
 romby tego samego koloru.
 
 %prep
-%setup -q -n %{_name}-%{version}
+%setup -q
 
 %build
 %configure2_13
@@ -37,7 +36,7 @@ romby tego samego koloru.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D src/%{_name} $RPM_BUILD_ROOT%{_bindir}/%{_name}
+install -D src/%{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %files
 %defattr(644,root,root,755)
