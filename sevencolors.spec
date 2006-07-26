@@ -41,8 +41,11 @@ romby tego samego koloru.
 rm -rf $RPM_BUILD_ROOT
 install -D src/%{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
 install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
-install %{SOURCE1} $RPM_BUILD_ROOT/%{_desktopdir}
-install %{SOURCE2} $RPM_BUILD_ROOT/%{_pixmapsdir}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
