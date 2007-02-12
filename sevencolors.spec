@@ -1,5 +1,5 @@
 Summary:	Little addicting game, take over the gaming area with your color
-Summary(pl.UTF-8):   Uzależniająca gra polegająca na przejęciu obszaru gry swoim kolorem
+Summary(pl.UTF-8):	Uzależniająca gra polegająca na przejęciu obszaru gry swoim kolorem
 Name:		sevencolors
 Version:	0.80
 Release:	4
