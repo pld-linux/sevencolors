@@ -1,5 +1,5 @@
 Summary:	Little addicting game, take over the gaming area with your color
-Summary(pl):	Uzale¿niaj±ca gra polegaj±ca na przejêciu obszaru gry swoim kolorem
+Summary(pl.UTF-8):   UzaleÅ¼niajÄ…ca gra polegajÄ…ca na przejÄ™ciu obszaru gry swoim kolorem
 Name:		sevencolors
 Version:	0.80
 Release:	4
@@ -22,12 +22,12 @@ this color propagates from the own corner (the lower left for player
 1, the upper right for player 2) to all the neighbour rhombs with the
 same color.
 
-%description -l pl
-7colors to gra dla systemu X Window, dla jednego lub dwóch graczy,
-której celem jest pokolorowanie 50% (plus jednego) rombów na ekranie
-zanim inny gracz zd±¿y to zrobiæ. W ka¿dej rundzie gracz wybiera
-kolor, a ten kolor rozprzestrzenia siê od jego rogu (lewego dolnego
-dla gracza 1, górnego prawego dla gracza 2) na wszystkie s±siednie
+%description -l pl.UTF-8
+7colors to gra dla systemu X Window, dla jednego lub dwÃ³ch graczy,
+ktÃ³rej celem jest pokolorowanie 50% (plus jednego) rombÃ³w na ekranie
+zanim inny gracz zdÄ…Å¼y to zrobiÄ‡. W kaÅ¼dej rundzie gracz wybiera
+kolor, a ten kolor rozprzestrzenia siÄ™ od jego rogu (lewego dolnego
+dla gracza 1, gÃ³rnego prawego dla gracza 2) na wszystkie sÄ…siednie
 romby tego samego koloru.
 
 %prep
