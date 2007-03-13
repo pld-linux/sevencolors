@@ -6,9 +6,9 @@ Release:	4
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://digilander.iol.it/sbel/7colors/%{name}-%{version}.tar.gz
+# Source0-md5:	2afdc10008ba214f8832070365410858
 Source1:	%{name}.desktop
 Source2:	%{name}.png
-# Source0-md5:	2afdc10008ba214f8832070365410858
 URL:		http://digilander.libero.it/sbel/7colors.english.html
 BuildRequires:	gnome-libs-devel
 Obsoletes:	7colors
