@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Sevencolors
 Name[de]=Sevencolors
 Name[pl]=Sevencolors
@@ -7,7 +6,7 @@ Comment=Capture more than 50% area
 Comment[de]=Erobern mehr als 50% Oberfläche
 Comment[pl]=Opanuj ponad 50% powierzchni
 Exec=sevencolors
-Icon=sevencolors.png
+Icon=sevencolors
 Terminal=false
 Type=Application
 Categories=GTK;GNOME;Game;LogicGame;
